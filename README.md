@@ -1,4 +1,4 @@
-# PyTorch Playing Card Classifier 🃏
+# PyTorch Playing Card Classifier
 
 A deep learning project that uses Python and the PyTorch framework to build a highly accurate image classifier. This model leverages **transfer learning** with a pre-trained EfficientNet-B0 architecture to classify a dataset of 53 unique playing cards.
 
@@ -16,7 +16,7 @@ A deep learning project that uses Python and the PyTorch framework to build a hi
 
 ---
 
-## 🏛️ Model Architecture: Transfer Learning
+## Model Architecture: Transfer Learning
 
 Instead of training a neural network from scratch, this project uses **transfer learning**. This technique takes a powerful, pre-trained model and adapts it for a new, specific task.
 
@@ -29,9 +29,19 @@ This approach allows us to achieve high accuracy without the need for a massive 
 
 ---
 
-## ⚙️ Setup and Installation
+## Setup and Installation
 
-To run this project, you'll need Python 3 and the required packages. It's recommended to use a virtual environment.
+You can run this project either with Google Colab or on your local machine. 
+
+With Colab, it is pretty straightforward. The entire workflow—from data loading to training and prediction—is contained within the [PyTorchImageClassification.ipynb](https://colab.research.google.com/drive/1ZZ-W16wohrbh22iTSDZ0AcWNC1Dfjd3g?usp=sharing) notebook.
+
+1.  **Open and run the notebook** in an environment like Jupyter Lab, Jupyter Notebook, or VS Code.
+2.  The notebook will first **download the dataset** using the Kaggle API.
+3.  You can **run the cells sequentially** to perform data preprocessing, model definition, training, and validation.
+4.  The final cells of the notebook provide functions to **test the trained model** on individual images from the test set and visualize the prediction probabilities.
+
+
+To run this project on your local machine, you'll need Python 3 and the required packages. It's recommended to use a virtual environment.
 
 1.  **Clone the repository:**
     ```bash
@@ -60,17 +70,6 @@ To run this project, you'll need Python 3 and the required packages. It's recomm
     ```bash
     pip install -r requirements.txt
     ```
-
----
-
-## 🚀 Usage
-
-The entire workflow—from data loading to training and prediction—is contained within the `PyTorchImageClassification.ipynb` notebook.
-
-1.  **Open and run the notebook** in an environment like Jupyter Lab, Jupyter Notebook, or VS Code.
-2.  The notebook will first **download the dataset** using the Kaggle API.
-3.  You can **run the cells sequentially** to perform data preprocessing, model definition, training, and validation.
-4.  The final cells of the notebook provide functions to **test the trained model** on individual images from the test set and visualize the prediction probabilities.
 
 ---
 
