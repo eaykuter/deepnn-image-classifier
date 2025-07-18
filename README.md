@@ -2,7 +2,7 @@
 
 A deep learning project that uses Python and the PyTorch framework to build a highly accurate image classifier. This model leverages **transfer learning** with a pre-trained EfficientNet-B0 architecture to classify a dataset of 53 unique playing cards.
 
-![Prediction Example](https://imgur.com/a/LliFxb3)
+![Prediction Example](https://imgur.com/a/LliFxb3.png)
 
 ---
 
@@ -77,4 +77,4 @@ The entire workflow—from data loading to training and prediction—is containe
 ## 📊 Results
 
 The model was trained for 5 epochs, with performance monitored on a validation set to prevent overfitting. The loss curves below show that the model learned effectively, with both training and validation loss decreasing consistently.
-![Validation Loss](https://imgur.com/a/eZqnO9T)
+![Validation Loss](https://imgur.com/a/eZqnO9T.png)
